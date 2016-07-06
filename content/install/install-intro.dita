@@ -2,12 +2,11 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_edn_wtd_54">
 
-  <title>Installing On-Premises</title>
-  <shortdesc>Couchbase Server installation covers pre-installation, 
-    installation on supported platforms, post-installation, upgrading, cloud deployment and migration procedures.</shortdesc>
+  <title>Installing Couchbase Server</title>
+  <shortdesc>Installation involves picking up the platform and the correct software edition for your
+    needs, downloading the software, and running the installer.</shortdesc>
   <body>
-    <p>Installation involves picking up the platform and the correct software edition for your
-    needs, downloading the software, and running the installer.</p>
+   
     <p> Before you install Couchbase Server, review the hardware requirements, supported platforms,
       network configuration, security considerations, and production deployment considerations. Then
       follow the installation instructions for your operating system or cloud environment.</p>
@@ -24,8 +23,11 @@
       </p>
       <ol>
         <li>Download or transfer the download to your Ubuntu system.</li>
+
         <li>Install the package using the <cmdname>dpkg</cmdname> command as a privileged user under sudo. For example: 
           <codeblock> sudo dpkg -i couchbase-server-enterprise_4.5.0-ubuntu14.04_amd64.deb</codeblock></li>
+
+       
       </ol>
     </section> 
   </body>
